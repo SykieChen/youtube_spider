@@ -1,0 +1,8 @@
+[API]
+# get your key following https://developers.google.com/youtube/v3/getting-started
+key = your API key
+[Request]
+video_id = the video you want
+[Proxy]
+server = you may need a proxy in some bad countries
+port = 1934
