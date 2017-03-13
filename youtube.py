@@ -62,6 +62,7 @@ def get_replies(top_comments):
 				if 'nextPageToken' in json_data.keys() :
 					params['pageToken'] = json_data["nextPageToken"]
 				else:
+					params['pageToken'] = ''
 					break
 			print(len(replies[comment['id']]), 'replies collected')
 	return replies
